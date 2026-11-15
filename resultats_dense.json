@@ -1,0 +1,472 @@
+[
+  {
+    "question": "Combien dure la soutenance ?",
+    "type": "factuel",
+    "reponse": "La soutenance dure 45 minutes : 20 minutes de présentation et 25 minutes de questions.[1]",
+    "ids": [
+      "reglement_pfe.txt#11",
+      "guide_stage_etranger.pdf#7",
+      "faq_solaris.txt#6",
+      "note_soutenances_scan.pdf#0"
+    ],
+    "latence": 16.95023560000118,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse est correcte. Elle contient toutes les informations importantes de la réponse attendue : la durée totale de la soutenance (45 minutes) ainsi que la répartition entre la présentation et les questions.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Combien coûte une borne de recharge pour une maison ?",
+    "type": "factuel",
+    "reponse": "Une borne murale de 7,4 kW coûte 9 500 dirhams, pose comprise [1].",
+    "ids": [
+      "faq_solaris.txt#9",
+      "faq_solaris.txt#2",
+      "faq_solaris.txt#10",
+      "faq_solaris.txt#5"
+    ],
+    "latence": 0.9993592999962857,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie est correcte. Elle contient toutes les informations importantes présentes dans la réponse attendue, à savoir le coût de la borne de recharge (9 500 dirhams) et qu'il y a une pose comprise (borne murale de 7,4 kW). La mention du numéro [1] n'a pas d'importance pour la correction du sens.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Que se passe-t-il si je rends mon rapport en retard ?",
+    "type": "factuel",
+    "reponse": "Une pénalité de 2 points sur la note du rapport est appliquée si le rapport est déposé en retard [1].",
+    "ids": [
+      "reglement_pfe.txt#10",
+      "reglement_pfe.txt#13",
+      "reglement_pfe.txt#9",
+      "note_soutenances_scan.pdf#0"
+    ],
+    "latence": 1.2501418000028934,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie contient toutes les informations importantes de la réponse attendue sans erreurs. Elle mentionne correctement que l'application d'une pénalité de 2 points sur la note du rapport est liée au dépôt en retard du rapport.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Qui fixe le montant de la gratification du stage ?",
+    "type": "factuel",
+    "reponse": "La gratification du stage est fixée librement par l'organisme d'accueil [1].",
+    "ids": [
+      "reglement_pfe.txt#8",
+      "guide_stage_etranger.pdf#3",
+      "reglement_pfe.txt#5",
+      "reglement_pfe.txt#6"
+    ],
+    "latence": 1.3214958000025945,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "partiel",
+    "justification": "La réponse fournie contient une information correcte, mais elle manque de précisions importantes présentes dans la réponse attendue. La réponse attendue mentionne que c'est l'organisme d'accueil qui fixe librement le montant, et qu'une recommandation minimum est de 2 000 dirhams par mois. La réponse donnée ne mentionne pas la recommandation minimum.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Quelles sont les garanties des panneaux et de l'onduleur ?",
+    "type": "factuel",
+    "reponse": "Les panneaux sont garantis 25 ans sur la production [1], et l'onduleur est garanti 10 ans [1].",
+    "ids": [
+      "faq_solaris.txt#6",
+      "faq_solaris.txt#7",
+      "faq_solaris.txt#4",
+      "faq_solaris.txt#11"
+    ],
+    "latence": 1.5673005999997258,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "correct",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Comment est calculée la note finale du PFE ?",
+    "type": "factuel",
+    "reponse": "La note finale du PFE est calculée en prenant 40 % du travail en entreprise (évalué par l'encadrant professionnel), 30 % du rapport, et 30 % de la soutenance [1].",
+    "ids": [
+      "reglement_pfe.txt#12",
+      "reglement_pfe.txt#10",
+      "reglement_pfe.txt#2",
+      "reglement_pfe.txt#1"
+    ],
+    "latence": 2.3963883999967948,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "partiel",
+    "justification": "La réponse fournie contient les informations essentielles pour calculer la note finale du PFE, à savoir les pourcentages attribués à chaque composante (travail en entreprise, rapport, soutenance). Cependant, elle omet la mention du seuil minimal de note (12/20) pour la validation du PFE.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Quand ont lieu les soutenances en 2027 ?",
+    "type": "ocr",
+    "reponse": "Les soutenances ont lieu du 12 au 16 juillet 2027, en salle B12 [1].",
+    "ids": [
+      "note_soutenances_scan.pdf#0",
+      "guide_stage_etranger.pdf#7",
+      "reglement_pfe.txt#13",
+      "reglement_pfe.txt#11"
+    ],
+    "latence": 1.6939328000007663,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie contient toutes les informations importantes présentes dans la réponse attendue (les dates, l'année et la salle). La formulation est légèrement différente, mais le sens est le même.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Quelle est la date des soutenances de rattrapage en 2027 ?",
+    "type": "ocr",
+    "reponse": "Le 28 septembre 2027 [1]",
+    "ids": [
+      "note_soutenances_scan.pdf#0",
+      "reglement_pfe.txt#13",
+      "guide_stage_etranger.pdf#7",
+      "reglement_pfe.txt#10"
+    ],
+    "latence": 0.7884803000051761,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie par l'assistant est identique à la réponse attendue, donc elle est correcte. Les informations importantes présentes dans la réponse attendue sont toutes présentes dans la réponse de l'assistant.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Combien touche par mois un boursier qui part au Canada, et pendant combien de temps ?",
+    "type": "tableau",
+    "reponse": "Un boursier qui part au Canada touche 4 000 DH par mois pendant 4 mois [1].",
+    "ids": [
+      "guide_stage_etranger.pdf#5",
+      "guide_stage_etranger.pdf#3",
+      "reglement_pfe.txt#8",
+      "reglement_pfe.txt#6"
+    ],
+    "latence": 1.5400533999927575,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie est correcte. Elle contient toutes les informations importantes présentes dans la réponse attendue, à savoir le montant (4 000 DH par mois) et la durée (4 mois au maximum). La mention des 4 mois [1] est inutile mais ne change pas le sens global de la réponse.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Pendant combien de mois au maximum l'allocation est-elle versée pour l'Allemagne ?",
+    "type": "tableau",
+    "reponse": "5 mois [1]",
+    "ids": [
+      "guide_stage_etranger.pdf#5",
+      "reglement_pfe.txt#2",
+      "faq_solaris.txt#6",
+      "faq_solaris.txt#5"
+    ],
+    "latence": 0.42442989999835845,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse attendue mentionne que l'allocation est versée pendant 5 mois, ce qui est correct. Cependant, elle inclut des informations supplémentaires (3 000 DH par mois) qui ne sont pas demandées dans la question. Ces informations supplémentaires ne changent pas la correction de la réponse, donc la réponse est correcte.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Quel pays a l'allocation mensuelle la plus faible ?",
+    "type": "tableau",
+    "reponse": "Espagne, avec 2 500 DH mensuels [1].",
+    "ids": [
+      "guide_stage_etranger.pdf#5",
+      "faq_solaris.txt#3",
+      "reglement_pfe.txt#8",
+      "guide_stage_etranger.pdf#6"
+    ],
+    "latence": 0.8718365999957314,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie contient les informations essentielles, c'est-à-dire le pays (Espagne) et la valeur de l'allocation mensuelle (2 500 DH). La mention 'mensuels' au lieu de 'mensuelle' n'affecte pas le sens global de la phrase. Par conséquent, cette réponse est correcte.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Kifach kathseb la note dyal PFE ?",
+    "type": "multilingue",
+    "reponse": "La note finale du PFE est calculée ainsi : 40 % pour le travail en entreprise, 30 % pour le rapport et 30 % pour la soutenance. Le PFE est validé si la note finale est supérieure ou égale à 12 sur 20. [1]",
+    "ids": [
+      "reglement_pfe.txt#12",
+      "reglement_pfe.txt#10",
+      "reglement_pfe.txt#2",
+      "reglement_pfe.txt#1"
+    ],
+    "latence": 2.722867500007851,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse est correcte. Elle comporte toutes les informations importantes de la réponse attendue : les pourcentages attribués à chaque composante du PFE et le seuil minimal pour l'obtention. La mention de l'arrêté du 1er mars 2016 n'est pas nécessaire pour répondre correctement à la question posée.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "ما هي مدة ضمان الألواح الشمسية؟",
+    "type": "multilingue",
+    "reponse": "دورة الضمان للألواح الشمسية هي 25 سنة على الإنتاج [1].",
+    "ids": [
+      "faq_solaris.txt#6",
+      "faq_solaris.txt#7",
+      "faq_solaris.txt#5",
+      "faq_solaris.txt#1"
+    ],
+    "latence": 1.1080112000054214,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie est correcte. Elle indique que la durée du garantie des panneaux solaires est de 25 ans, ce qui correspond à la période pendant laquelle la puissance de production est garantie à au moins 80 %.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "How long does the thesis defense last?",
+    "type": "multilingue",
+    "reponse": "The thesis defense lasts 45 minutes: 20 minutes of presentation and 25 minutes of questions. [1]",
+    "ids": [
+      "reglement_pfe.txt#11",
+      "reglement_pfe.txt#2",
+      "faq_solaris.txt#11",
+      "guide_stage_etranger.pdf#7"
+    ],
+    "latence": 1.340981000001193,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie contient toutes les informations importantes de la réponse attendue. La durée totale de la défense est de 45 minutes, avec 20 minutes pour la présentation et 25 minutes pour les questions. La mention du numéro [1] n'a pas d'importance pour la correction du sens.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Où se trouve le bureau des relations internationales ?",
+    "type": "mots-cles",
+    "reponse": "Le bureau des relations internationales est situé au rez-de-chaussée du bâtiment administratif, porte 4 [1].",
+    "ids": [
+      "guide_stage_etranger.pdf#9",
+      "guide_stage_etranger.pdf#1",
+      "guide_stage_etranger.pdf#4",
+      "faq_solaris.txt#12"
+    ],
+    "latence": 1.4906145999993896,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse est correcte car elle contient toutes les informations importantes présentes dans la réponse attendue. Elle indique le niveau (rez-de-chaussée), l'emplacement (bâtiment administratif), le numéro de porte (porte 4) et précise que c'est bien le bureau des relations internationales qui est situé là.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Que dit l'article 9 du règlement ?",
+    "type": "mots-cles",
+    "reponse": "Toute absence de plus de 3 jours consécutifs doit être justifiée auprès de l'organisme d'accueil et signalée à l'encadrant académique. Au-delà de 10 jours d'absence non justifiée, le stage peut être annulé. [1]",
+    "ids": [
+      "reglement_pfe.txt#9",
+      "reglement_pfe.txt#1",
+      "reglement_pfe.txt#14",
+      "reglement_pfe.txt#0"
+    ],
+    "latence": 3.2348310999950627,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "correct",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Un stage en télétravail depuis le Maroc pour une entreprise française donne-t-il droit à l'allocation de mobilité ?",
+    "type": "raisonnement",
+    "reponse": "Non, un stage en télétravail depuis le Maroc pour une entreprise française n'est pas considéré comme un stage à l'étranger et ne donne pas droit à l'allocation de mobilité [1].",
+    "ids": [
+      "guide_stage_etranger.pdf#6",
+      "guide_stage_etranger.pdf#5",
+      "reglement_pfe.txt#6",
+      "guide_stage_etranger.pdf#3"
+    ],
+    "latence": 2.508683199994266,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse est correcte. Elle contient toutes les informations importantes de la réponse attendue sans erreurs. La phrase est légèrement plus détaillée en mentionnant le télétravail et l'entreprise française, mais cela ne change pas le sens global de la réponse.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Je veux soutenir en visioconférence depuis l'étranger : avant quand dois-je faire la demande ?",
+    "type": "multi-sources",
+    "reponse": "Avant la soutenance, vous devez faire la demande au moins trois semaines avant, si vous êtes encore à l'étranger à la date prévue [1].",
+    "ids": [
+      "guide_stage_etranger.pdf#7",
+      "guide_stage_etranger.pdf#4",
+      "reglement_pfe.txt#6",
+      "note_soutenances_scan.pdf#0"
+    ],
+    "latence": 1.9420278999896254,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "partiel",
+    "justification": "La réponse fournie contient la bonne information, à savoir que la demande doit être faite au moins trois semaines avant la soutenance. Cependant, elle manque de préciser la date spécifique mentionnée dans la réponse attendue (21 juin 2027 pour 2027), ce qui la rend partiellement correcte.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Quels documents faut-il fournir pour un stage à l'étranger ?",
+    "type": "multi-sources",
+    "reponse": "Un passeport valide au moins six mois après la fin du stage, une attestation d'assurance couvrant le rapatriement, la lettre d'accueil de l'organisme et le formulaire de départ signé par l'encadrant académique [2].",
+    "ids": [
+      "reglement_pfe.txt#6",
+      "guide_stage_etranger.pdf#2",
+      "guide_stage_etranger.pdf#3",
+      "reglement_pfe.txt#5"
+    ],
+    "latence": 2.807188099992345,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "partiel",
+    "justification": "partiel",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  },
+  {
+    "question": "Quel est le salaire du directeur de l'école ?",
+    "type": "piege",
+    "reponse": "Je ne trouve pas cette information dans les documents.",
+    "ids": [
+      "reglement_pfe.txt#8",
+      "guide_stage_etranger.pdf#5",
+      "reglement_pfe.txt#7",
+      "reglement_pfe.txt#11"
+    ],
+    "latence": 0.7353752000053646,
+    "rappel_contexte": null,
+    "refus": true,
+    "verdict": "correct",
+    "justification": "refus attendu : OK",
+    "fidelite": null,
+    "citation_ok": null
+  },
+  {
+    "question": "Combien coûte une batterie de 10 kWh ?",
+    "type": "partiel",
+    "reponse": "Je ne trouve pas cette information dans les documents.",
+    "ids": [
+      "faq_solaris.txt#9",
+      "faq_solaris.txt#2",
+      "faq_solaris.txt#8",
+      "faq_solaris.txt#3"
+    ],
+    "latence": 0.78567819998716,
+    "rappel_contexte": 1.0,
+    "refus": true,
+    "verdict": "faux",
+    "justification": "refus injustifié : la réponse était dans les documents",
+    "fidelite": null,
+    "citation_ok": null
+  },
+  {
+    "question": "Quels sont les horaires de la bibliothèque de l'école ?",
+    "type": "piege",
+    "reponse": "Je ne trouve pas cette information dans les documents.",
+    "ids": [
+      "reglement_pfe.txt#11",
+      "guide_stage_etranger.pdf#9",
+      "note_soutenances_scan.pdf#0",
+      "reglement_pfe.txt#14"
+    ],
+    "latence": 0.9475964000012027,
+    "rappel_contexte": null,
+    "refus": true,
+    "verdict": "correct",
+    "justification": "refus attendu : OK",
+    "fidelite": null,
+    "citation_ok": null
+  },
+  {
+    "question": "Quelle est l'adresse e-mail du directeur des études ?",
+    "type": "piege",
+    "reponse": "Je ne trouve pas cette information dans les documents.",
+    "ids": [
+      "note_soutenances_scan.pdf#0",
+      "guide_stage_etranger.pdf#4",
+      "guide_stage_etranger.pdf#1",
+      "guide_stage_etranger.pdf#9"
+    ],
+    "latence": 0.8426198999950429,
+    "rappel_contexte": null,
+    "refus": true,
+    "verdict": "correct",
+    "justification": "refus attendu : OK",
+    "fidelite": null,
+    "citation_ok": null
+  },
+  {
+    "question": "Solaris Énergie intervient-elle à Agadir ?",
+    "type": "raisonnement",
+    "reponse": "Je ne trouve pas cette information dans les documents.",
+    "ids": [
+      "faq_solaris.txt#1",
+      "faq_solaris.txt#7",
+      "faq_solaris.txt#10",
+      "faq_solaris.txt#9"
+    ],
+    "latence": 0.7874623999960022,
+    "rappel_contexte": 1.0,
+    "refus": true,
+    "verdict": "faux",
+    "justification": "refus injustifié : la réponse était dans les documents",
+    "fidelite": null,
+    "citation_ok": null
+  },
+  {
+    "question": "Combien de pages doit faire le rapport de PFE ?",
+    "type": "factuel",
+    "reponse": "Le rapport de PFE doit faire entre 40 et 80 pages, hors annexes [1].",
+    "ids": [
+      "reglement_pfe.txt#10",
+      "reglement_pfe.txt#12",
+      "reglement_pfe.txt#2",
+      "reglement_pfe.txt#1"
+    ],
+    "latence": 1.353598100002273,
+    "rappel_contexte": 1.0,
+    "refus": false,
+    "verdict": "correct",
+    "justification": "La réponse fournie contient toutes les informations importantes de la réponse attendue. Elle indique correctement la plage de pages requises pour le rapport de PFE, à savoir entre 40 et 80 pages, et précise que cela ne compte pas les annexes. La mention des [1] entre crochets n'a pas d'importance selon les instructions.",
+    "fidelite": 1.0,
+    "non_soutenues": [],
+    "citation_ok": true
+  }
+]
